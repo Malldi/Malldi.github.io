@@ -1,0 +1,305 @@
+* {margin: 0px; padding: 0;}
+
+@font-face {font-family: mont-light;src: url(../fonts/Montserrat-Light.ttf);}
+@font-face {font-family: mont-bold;src: url(../fonts/Montserrat-Bold.ttf);}
+@font-face {font-family: mont-exbold;src: url(../fonts/Montserrat-ExtraBold.ttf);}
+@font-face {font-family: mont-medium;src: url(../fonts/Montserrat-Medium.ttf);}
+@font-face {font-family: rusl;src: url(../fonts/RuslanDisplay-Regular.ttf);}
+
+.project{width: 1440px; height: 6970px; background-color: #FEECDA; display: flex; flex-direction: column;}
+.header{width: 1440px; height: 72px; background-color: #EEC79F; position: relative;}
+.logo{left: 160px; top: 24px; position: absolute; line-height: 28px;
+    color: #97140C; font-family: rusl; font-size: 30px;}
+.menu{position: absolute; top: 26px; left: 331px; display: flex;
+    color: #62392E; font-family: mont-bold; line-height: 20px; font-size: 14px;}
+    .menu-about{position: absolute; width: 45px; text-decoration: none; color: #62392E;}
+    .menu-price{position: absolute; left: 96px}
+    .menu-delivery{position: absolute; left: 191px; text-decoration: none; color: #62392E;}
+    .menu-blog{position: absolute; left: 321px; text-decoration: none; color: #62392E;}
+    .menu-contact{position: absolute; left: 408px; text-decoration: none; color: #62392E;}
+.headerBut-Call{
+        display: inline-block; text-decoration: none; /* Убираем подчеркивание у ссылки */
+        width: 130px;  height: 44px; position: absolute;
+        background-color: #D44952; color: white; border-radius: 10px;
+        text-align: left;
+        top: 14px; left: 1150px; }
+.headerBut-Call span{position: absolute; left: 24px; top: 12px; 
+    font-family: mont-bold; font-size: 14px; line-height: 20px;}
+    .headerBut-Call:hover{background-color: #463B37;}
+
+.frame1{width: 1120px; height: 574px; position: relative; margin-top:152px; left: 160px;
+    display: flex; flex-direction: row;}
+    .fr1-icon4{position: relative; left: 30px;}
+    .fr1-text{display: flex; flex-direction: column;}
+    .fr1-pause{width: 643px; height: 262px; top: 73px; position: relative; color: #62392E; 
+    font-family: mont-exbold; font-size: 48px; line-height: 64px;}
+    .fr1-wait{width: 643px; height: 56px; top: 105px; position: relative; color: #463B37;
+    font-family: mont-medium; font-size: 18px; line-height: 28px;}
+    .fr1-But{
+        display: inline-block; text-decoration: none; /* Убираем подчеркивание у ссылки */
+        width: 135px;  height: 44px; position: relative;
+        background-color: #D44952; color: white; border-radius: 10px;
+        text-align: left; position: relative;
+        top: 137px; }
+    .fr1-But span{position: relative; left: 24px; top: 12px; 
+    font-family: mont-bold; font-size: 14px; line-height: 20px;}
+        .fr1-But:hover{background-color: #463B37;}
+
+.frame2{width: 1150px; height: 1078px; position: relative; margin-top: 65px; left: 160px;}
+    .fr2-eklers{width: 654px; height: 54px; position: relative; left: 232px; color: #62392E;
+        font-family: mont-exbold; font-size: 40px; line-height: 54px;} 
+    .fr2-ekl_group{display: flex; flex-wrap: wrap; align-content: flex-start;} 
+
+    .fr2-blok{position: relative; display: flex; flex-direction: column; text-align: center;
+       margin-right: -9px; margin-bottom: -85px;}
+        .fr2-foto{position: relative; left: 0px; top: 14px;}
+        .fr2-textDfoto{height: 28px; position: relative; bottom: 137px; padding-right: 16px; 
+        color:#463B37; font-family: mont-medium; font-size: 18px; line-height: 28px;}
+        .fr2-But{
+            display: inline-block; text-decoration: none; 
+            width: 130px;  height: 44px; position: relative;
+            background-color: #D44952; color: white; border-radius: 10px;
+            text-align: left;
+            bottom: 118px; left: 121px;}
+        .fr2-But span{position: relative; left: 24px; top: 12px; 
+        font-family: mont-bold; font-size: 14px; line-height: 20px;}
+            .fr2-But:hover{background-color: #463B37;}
+
+.frame3{width: 1160px; height: 440px; position: relative; margin-top: 80px; left: 160px;}
+    .fr3-why-us{width: 275px; height: 54px; position: relative; left: 427px; color: #62392E;
+        font-family: mont-exbold; font-size: 40px; line-height: 54px;}
+    .fr3-group{display: flex; flex-wrap: wrap; flex-direction: row;} 
+            .fr3-blok{position: relative; display: flex; flex-direction: column; text-align: center;
+            margin-right: -7px;}
+                .fr3-foto{position: relative; left: 0px; top: 13px;}
+                .fr3-text1{width: 271px; position: relative; left: 40.5px; bottom: 231px; color: #62392E;
+                font-family: mont-medium; font-size: 18px; line-height: 28px;}
+                .fr3-text2{width: 250px; position: relative; left: 51px; bottom: 192px; color: #463B37;
+                font-family: mont-light; font-size: 16px; line-height: 26px; text-align: center;}
+
+.frame4{width: 1120px; height: 120px; position: relative; margin-top: 80px; left: 160px;
+    border-radius: 128px 32px 128px 32px;background: linear-gradient(to right,#EEC79F,#DAA165);}
+    .fr4-3{width: 32px; position: absolute; left: 166px; top: 11px; color: #62392E;
+        font-family: mont-exbold; font-size: 28px; line-height: 40px;}
+    .fr4-year{width: 96px;top: 26px;position: absolute;left: 127px; top: 60px; color: #463B37;
+        font-family: mont-light; font-size: 16px; line-height: 26px;}
+                
+    .fr4-8000{width: 91px; position: absolute; left: 519px; top: 11px; color: #62392E;
+        font-family: mont-exbold; font-size: 28px; line-height: 40px;}
+    .fr4-sell{width: 96px;top: 26px;position: absolute;left: 508px; top: 60px; color: #463B37;
+        font-family: mont-light; font-size: 16px; line-height: 26px; text-align: center;}
+                
+    .fr4-2000{width: 32px; position: absolute; right: 193px; top: 11px; color: #62392E;
+        font-family: mont-exbold; font-size: 28px; line-height: 40px;}
+    .fr4-clients{width: 96px;top: 26px;position: absolute;left: 894px;top: 60px;color: #463B37;
+        font-family: mont-light; font-size: 16px; line-height: 26px; text-align: center;}
+
+.frame5{width: 1440px; height: 100px; position: relative; margin-top: 80px; 
+    background-color: #FEECDA; display: flex; flex-direction: row;}
+        .fr5-foto{position: relative; left: 120px; width: 554px; height: 614px;}
+        .fr5-group{position: relative; display: flex; flex-direction: column; text-align: center;}
+            .fr5-zakaz{width: 465px; height: 64px; position: relative; color: #62392E;
+                    font-family: mont-exbold; font-size: 48px; line-height: 64px; 
+                    bottom: -179px; left: 170px;}
+        .fr5-input{margin-left: 68px;}
+    .fr5-input-name{position: relative; height: 47px; width: 509px; padding-left: 14px; 
+        font-family: mont-light; font-size: 16px; line-height: 26px;
+        top: 210px; margin-left: 130px; background-color: #FEECDA;}
+    .fr5-input-number{position: relative; height: 47px; width: 510px; padding-left: 14px; 
+        font-family: mont-light; font-size: 16px; line-height: 26px;
+        top: 235px; margin-left: 130px; background-color: #FEECDA;}
+    .fr5-input-load{position: relative; height: 47px; width: 459px; padding-left: 65px; 
+        font-family: mont-light; font-size: 16px; line-height: 26px;
+        top: 259px; margin-left: 130px; background-color: #FEECDA;}
+    .fr5-load{position: absolute; width: 35px; height: 35px; margin-top: 433px; margin-left: 215px;}
+    .fr5-But{
+        display: inline-block; text-decoration: none; 
+        width: 102px;  height: 44px; position: relative; top: 283px; left: 200px;
+        background-color: #D44952; color: white; border-radius: 10px;
+        text-align: left; line-height: 100px;}
+        
+    .fr5-But span{position: relative; left: 17px; top: -28px; 
+    font-family: mont-bold; font-size: 14px; line-height: 20px;}
+        .fr5-But:hover{background-color: #463B37;}
+.fr5-color{width: 1440px;height: 574px; background-color: rgba(216,161,101,25%);} 
+
+.frame6{width: 1120px; height: 290px; position: relative; margin-top: 80px; left: 160px;
+     display: flex; flex-direction: column;}
+    .fr6-name{width: 626px; height: 54px; position: relative; color: #62392E;
+    font-family: mont-exbold; font-size: 40px; line-height: 54px;
+    left: 247px; top: 0px;}
+    .fr6-container{width: 1152px; height: 221px; position: relative; 
+    display: flex; flex-direction: row; margin-top: 15px; }
+        .fr6-cont-element{width: 256px; height: 221px; margin-right: 32px;}
+            .fr6-block{width: 256px; height: 173px; position: relative; top: 48px; border-radius: 32px;
+            margin-right: 112px; background: linear-gradient(#D44952, rgba(212, 73, 82, 0.25));}
+                .fr6-ellipse{position: relative; width: 96px; height: 96px; 
+                    background-color: #EEC79F; bottom: 173px; left: 80px;
+                    border-radius: 50px; }
+                    .fr6-ell-number{position:absolute; text-align: center; width: 32px; height: 32px; margin-left: 32px; margin-top: 28px;
+                        font-family: mont-exbold; font-size: 28px; line-height: 40px; color: #97140C;}
+            .fr6-block-name{position: relative; text-align: center; width: 256px; height: 24px; top: 58px;
+                font-family: mont-medium; font-size: 18px; line-height: 28px; color: white;}
+            .fr6-block-text{position: relative; text-align: center; width: 256px; height: 80px; top: 70px;
+                font-family: mont-light; font-size: 16px; line-height: 26px; color: #463B37;}
+
+.frame7{width: 1150px; height: 500px; position: relative; display: flex; flex-direction: column;
+margin-top: 80px; left: 165px;}
+    .fr7-name{width: 754px; height: 54px; position: relative; color: #62392E;
+    font-family: mont-exbold; font-size: 40px; line-height: 54px;
+    left: 178px; top: 0px;}
+    .fr7-container{position: relative; width: 1150px; height: 430px; 
+    display: flex; flex-direction: row; margin-top: 16px;}
+        .fr7-cont-element{width: 342px; height: 430px; margin-right: 42px;}
+            .fr7-block{width: 342px; height: 355px; position: relative; top: 0px;
+            border-radius: 32px 128px 32px 32px; background-color: #EEC79F; box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);}
+                .fr7-kommQuotes{position: relative; top: 12px; left: 12px;}
+                .fr7-block-text{position: relative; width: 318px; height: 90px; top: 25px; left: 12px;
+                    font-family: mont-light; font-size: 16px; line-height: 26px; color: #463B37;}
+                .fr7-kommStars{position: relative; top: 41px; left: 12px;}
+                .fr7-block-author{position: relative; width: 318px; height: 30px; 
+                font-family: mont-medium; font-size: 18px; line-height: 28px; color: #62392E;
+                top: 56px; left: 12px;}
+            .fr7-author-foto{position: relative; width: 90px; height: 90px;
+            bottom: 45px; left: 126px; }
+
+.frame8{width: 1440px; height: 773px; position: relative; display: flex; flex-direction: column;
+    margin-top: 55px;}
+    .fr8-container{position: relative; width: 1440px; height: 573px;
+    display: flex; flex-direction: row; margin-top: 100px; background-color: #EEC79F;}
+            .fr8-name1{width: 265px; height: 40px; position: relative; color: #62392E;
+            font-family: mont-exbold; font-size: 28px; line-height: 40px;
+            top: 41px; left: 227px;}
+            .fr8-name2{width: 500px; height: 40px; position: relative; color: #62392E;
+            font-family: mont-exbold; font-size: 28px; line-height: 40px;
+            top: 40px; left: 227px;}
+            .fr8-text{width: 277px; height: 28px; position: relative; color: #463B37;
+            font-family: mont-medium; font-size: 18px; line-height: 28px;
+            top: 70px; left: 227px;}
+        .fr8-form{width: 480px; height: 269px; position: relative; top: 155px; left: 227px;}
+            .fr8-input-name{width: 463px; height: 45px; padding-left: 13px;
+            font-family: mont-light; font-size: 16px; line-height: 26px; background-color: #FEECDA;}
+            .fr8-input-number{width: 463px; height: 45px; padding-left: 13px; margin-top: 26px;
+            font-family: mont-light; font-size: 16px; line-height: 26px; background-color: #FEECDA;}
+            .fr8-select{width: 480px; height: 50px; padding-left: 10px; padding-top: 2px; margin-top: 25px;
+            font-family: mont-light; font-size: 16px; line-height: 26px; background-color: #FEECDA;}
+            
+
+            .fr8-but{
+            display: inline-block; text-decoration: none; /* Убираем подчеркивание у ссылки */
+            width: 116px;  height: 44px; position: absolute;
+            background-color: #D44952; color: white; border-radius: 10px;
+            text-align: left; position: absolute; bottom: 0px; }
+            .fr8-but span{position: absolute; left: 24px; top: 12px; 
+            font-family: mont-bold; font-size: 14px; line-height: 20px;}
+                .fr8-but:hover{background-color: #463B37;}
+    .fr8-icon4{width: 447px; height: 773px; position: relative; left: 262px; bottom: 100px;}
+
+.frame9{width: 1170px; height: 618px; position: relative; margin-top: 80px; left: 160px;}
+    .fr9-name{width: 147px; height: 40px; position: relative; left: 487px; color: #62392E;
+    font-family: mont-exbold; font-size: 28px; line-height: 40px;} 
+    .fr9-blog_group{display: flex; flex-wrap: wrap; align-content: flex-start;} 
+        .fr9-blok{position: relative; width: 362px; height: 560px; top: 18px;
+        display: flex; flex-direction: column; text-align: center;
+        margin-right: 22px;}
+            .fr9-foto{position: relative; width: 392px; height: 620px;}
+            .fr9-textDfoto{width: 284px; height: 55px; position: relative; text-align: center;
+            bottom: 180px; left: 44px; padding-right: 16px; 
+            color:#463B37; font-family: mont-medium; font-size: 18px; line-height: 28px;}
+            .fr9-textDfoto1{width: 284px; height: 55px; position: relative; text-align: center;
+            bottom: 165px; left: 44px; padding-right: 16px; 
+            color:#463B37; font-family: mont-medium; font-size: 18px; line-height: 28px;}
+            .fr9-But{
+                display: inline-block; text-decoration: none; /* Убираем подчеркивание у ссылки */
+                width: 135px;  height: 44px; position: absolute;
+                background-color: #D44952; color: white; border-radius: 10px;
+                text-align: left; position: absolute;
+                top: 456px; left: 118px; 
+            }
+            .fr9-But span{position: absolute; left: 24px; top: 12px; 
+                font-family: mont-bold; font-size: 14px; line-height: 20px;}
+                .fr9-But:hover{background-color: #463B37;}
+
+.frame10{width: 1440px; height: 570px; position: relative; margin-top: 40px; display: flex; flex-direction: column;}
+    .fr10-container{position: relative; width: 1440px; height: 500px;
+        display: flex; flex-direction: row; margin-top: 70px; background-color: #EEC79F;}
+        .fr10-name{width: 473px; height: 406px; position: relative; left: 160px; margin-top: 47px;}
+            .fr10-name1{position: relative; width: 304px; height: 40px; top: 0px; left: 0px;
+            font-family: mont-exbold; font-size: 28px; line-height: 40px; color: #62392E;}
+                .fr10-text1-1{width: 473px; height: 26px; position: relative;
+                    font-family: mont-light; font-size: 16px; line-height: 26px; color: #463B37;
+                    top: 16px;}
+                .fr10-text1-2{width: 473px; height: 26px; position: relative; top: 15px;
+                    font-family: mont-light; font-size: 16px; line-height: 26px; color: #463B37;}
+            .fr10-name2{position: relative; width: 230px; height: 40px; top: 30px; left: 0px;
+            font-family: mont-exbold; font-size: 28px; line-height: 40px; color: #62392E;}
+                .fr10-text2-1{width: 473px; height: 26px; position: relative;top: 47px;
+                    font-family: mont-light; font-size: 16px; line-height: 26px; color: #463B37;}
+                .fr10-text2-2{width: 473px; height: 26px; position: relative; top: 47px;
+                    font-family: mont-light; font-size: 16px; line-height: 26px; color: #463B37;}
+                .fr10-text2-3{width: 473px; height: 26px; position: relative; top: 47px;
+                    font-family: mont-light; font-size: 16px; line-height: 26px; color: #463B37;}
+            .fr10-name3{position: relative; width: 254px; height: 40px; top: 63px; left: 0px;
+            font-family: mont-exbold; font-size: 28px; line-height: 40px; color: #62392E;}
+                .fr10-text3{width: 473px; height: 26px; position: relative; top: 80px;
+                    font-family: mont-light; font-size: 16px; line-height: 26px; color: #463B37;}
+        .fr10-seti{position: relative; top: 94px;}
+    .fr10-map{position: relative; width: 540px; height: 537px; bottom: 70px; left: 307px;}
+
+.frame11{width: 1100px; height: 134px; position: relative; margin-top: 80px; left: 170px;
+    border-radius: 32px 128px 32px 128px;background: linear-gradient(to right,#D44952,rgba(212, 73, 82, 0.25));}
+    .fr11-text1{width: 219px; height: 40px; position: relative; top: 20px; left: 120px;
+        font-family: mont-exbold; font-size: 28px; line-height: 40px; color: #ffffff;}
+    .fr11-text2{width: 643px; height: 26px; position: relative; top: 48px; left: 120px;
+        font-family: mont-light; font-size: 16px; line-height: 26px; color: #463B37;}
+    .fr11-But{
+        display: inline-block; text-decoration: none;
+        width: 135px;  height: 44px; position: absolute;
+        background-color: #D44952; color: white; border-radius: 10px;
+        text-align: left;
+        top: 70px; left: 792px; 
+    }
+    .fr11-But span{position: absolute; left: 24px; top: 12px; 
+        font-family: mont-bold; font-size: 14px; line-height: 20px;}
+        .fr11-But:hover{background-color: #463B37;}
+
+.frame12{width: 1440px; height: 210px; position: relative; display: flex; flex-direction: row;
+    margin-top: 80px; background-color: #EEC79F;}
+    .fr12-container1{width: 256px; height: 146px; position: relative;
+    top: 33px; left: 160px;}
+        .logo1{position: relative; line-height: 28px;
+            color: #97140C; font-family: rusl; font-size: 30px;}
+        .fr12-cont1-text{width: 256px; height: 110px; position: relative; top: 10px;
+        font-family: mont-light; font-size: 16px; line-height: 26px; color: #463B37;}
+
+    .fr12-container2{width: 195px; height: 148px; position: relative;
+    top: 31px; left: 192px;}
+        .fr12-cont2-name{position: relative; font-family: mont-medium; font-size: 18px; 
+            line-height: 28px; color: #62392E; top: -1px;}
+        .fr12-cont2-text1{position: absolute; top: 38px; text-decoration: none;
+            font-family: mont-light; font-size: 16px; line-height: 26px; color: #463B37;}
+        .fr12-cont2-text2{position: absolute; top: 80px; text-decoration: none;
+            font-family: mont-light; font-size: 16px; line-height: 26px; color: #463B37;}
+        .fr12-cont2-text3{position: absolute; top: 122px; text-decoration: none;
+            font-family: mont-light; font-size: 16px; line-height: 26px; color: #463B37;}
+
+    .fr12-container3{width: 196px; height: 148px; position: relative;
+    top: 31px; left: 285px;}
+        .fr12-cont3-name{position: relative; font-family: mont-medium; font-size: 18px; 
+            line-height: 28px; color: #62392E; top: -1px;}
+        .fr12-cont3-text1{position: absolute; top: 38px; text-decoration: none;
+            font-family: mont-light; font-size: 16px; line-height: 26px; color: #463B37;}
+        .fr12-cont3-text2{position: absolute; top: 80px; text-decoration: none;
+            font-family: mont-light; font-size: 16px; line-height: 26px; color: #463B37;}
+        .fr12-cont3-text3{position: absolute; top: 122px; text-decoration: none;
+            font-family: mont-light; font-size: 16px; line-height: 26px; color: #463B37;}
+
+    .fr12-container4{width: 147px; height: 68px; position: relative;
+    top: 31px; left: 377px;}
+        .fr12-cont4-name{position: relative; font-family: mont-medium; font-size: 18px; 
+            line-height: 28px; color: #62392E; top: -1px;}
+        .fr12-seti{position: relative; top: 5px;}
+    
+.frame13{width: 1440px; height: 38px; position: relative; background-color: #CD822F;}
+    .copyright{margin-left: 604px; margin-top: 9px; font-family: mont-bold; font-size: 14px; line-height: 20px;}
+        
