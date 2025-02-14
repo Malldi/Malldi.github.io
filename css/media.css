@@ -1,0 +1,112 @@
+@media screen and (max-width: 391px){
+    body{width: 390px;}
+    .project{width: 390px; height: 12547px;}
+    .header{width: 390px; height: 240px;}
+        .logo{width: 390px; height: 70px; left: 125px;}
+        .menu{width: 390px; left: 0px; flex-direction: column; text-align: center;}
+            .menu-about{left: 165px;} 
+            .menu-price{left: 165px;}
+            .menu-delivery{left: 153px;}
+            .menu-blog{left: 170px;}
+            .menu-contact{left: 153px;}
+        .header-ellipse{left: 190px; top: 70px; width: 200px; height: 200px;}
+        .headerBut-Call{left: 122px; top: 180px;}
+    .frame1{width: 390px; flex-direction: column; left: 0px;top: 0px;}
+        .fr1-text{width: 390px; height: 600px; flex-direction: column; position: relative; top: 215px;}
+            .fr1-pause{width: 355px; top: 0px; font-size: 34px; line-height: 40px; text-align: center;}
+            .fr1-wait{width: 350px; height: 85px; top: -55px; text-align: center;}
+            .fr1-But{left: 110px; top: -45px;}
+            .fr1-icon4{width: 250px; height: 300px; top: -485px; left: 50px;}
+    
+        .frame2{width: 390px; top: 30px; left: 0px;}
+            .fr2-eklers{width: 355px; left: 0px; top: -20px; font-size: 34px; line-height: 40px; text-align: center;}
+            .fr2-ekl_group{top: 25px; position: relative;}
+
+        .frame3{width: 390px; top: 2130px; left: 0px;}
+            .fr3-why-us{width: 355px; left: 0px; top: -20px; font-size: 34px; line-height: 40px; text-align: center;}
+            .fr3-group{top: -20px; position: relative;}
+            .fr3-blok{top: 0px; height: 415px;}
+
+        .frame4{width: 390px; height: 400px; top: 2920px; left: 0px;}
+            .fr4-blok{width: 390px; height: 133px;}
+                .fr4-3{left: 185px; top: 48px;}
+                .fr4-year{left: 148px; top: 80px;}
+                .fr4-8000{left: 156px; top: 140px;}
+                .fr4-sell{left: 148px; top: 175px;}
+                .fr4-2000{left: 156px; top: 255px;}
+                .fr4-clients{left: 150px; top: 290px;}
+
+        .frame5{width: 390px; height: 400px; top: 2920px; left: 0px;}
+            .fr5-foto{ top: 0px; left: 0px; width: 160px; height: 170px;}
+            .fr5-group{width: 390px; left: -153px; top: 0px;}
+                .fr5-zakaz{top: 80px; left: 37px; font-size: 25px; line-height: 40px;}
+                    .fr5-input{width: 390px; height: 80px; right: 68px; top: 110px; position: relative;}
+                        .fr5-input-name{width: 350px; right: 118px; top: 0px; height: 35px;}
+                        .fr5-input-number{width: 350px; right: 118px; top: -23px; height: 35px;}
+                        .fr5-input-load{width: 299px; right: 118px; top: -46px; height: 35px;}
+                            .fr5-load{width: 30px; height: 30px; left: -183px; top: -141px;}
+                        .fr5-But{left: 12px; top: 35px;}
+            .fr5-color{width: 390px; height: 350px; left: 0px; position: relative; top: 2570px;}
+            .frame5-all{top: -20px; position: relative;}
+    
+    .frame6{width: 390px; top: 2530px; left: 0px; height: 1000px;}
+        .fr6-name{width: 355px; left: 15px; top: -5px; font-size: 30px; line-height: 40px; text-align: center;}
+        .fr6-container{width: 390px; left: 63px; top: 15px; flex-direction: column;}
+            .fr6-cont-element{height: 235px;}
+
+    .frame7{width: 390px; height: 1350px; left: 0px; top: 2500px;}
+        .fr7-name{width: 355px; left: 15px; top: -5px; font-size: 30px; line-height: 40px; text-align: center;}
+        .fr7-container{width: 390px; left: 25px; top: 20px; flex-direction: column;}
+
+    .frame8{width: 390px; height: 525px; left: 0px; top: 2480px;}
+        .fr8-container{width: 390px; height: 430px; left: 0px; top: -35px;}
+            .fr8-name1{width: 222px; left: 0px; top: 40px; font-size: 22px; line-height: 40px; text-align: center;}
+            .fr8-name2{width: 222px; left: 0px; top: 40px; font-size: 15px; line-height: 20px; text-align: center;}
+            .fr8-text{width: 222px; left: 0px; top: 60px; font-size: 13px; line-height: 20px; text-align: center;}
+
+            .fr8-input-name{position: relative; width: 350px; right: 215px; top: -40px; height: 35px;}
+            .fr8-input-number{position: relative; width: 350px; right: 215px; top: -55px; height: 35px;}
+            .fr8-select{position: relative; width: 366px; right: 215px; top: -70px; height: 35px; color: #98948f; border: 2px solid black; 
+                border-bottom-color: #98948f; border-right-color:#98948f;}
+            .fr8-but{left: -215px; top: 105px;}
+    .fr8-icon4{width: 180px; height: 270px; left: -260px; top: -60px;}
+
+    .frame9{width: 390px; height: 1730px; left: 0px; top: 2400px;}
+        .fr9-name{width: 355px; left: 15px; top: 0px; font-size: 25px; line-height: 40px; text-align: center;}
+        .fr9-blok{width: 390px; left: 25px; top: 20px; flex-direction: column;}
+
+    .frame10{width: 390px; height: 425px; left: 0px; top: 2330px;}
+        .fr10-container{width: 390px; height: 400px; top: -45px;}
+            .fr10-name1{width: 265px; left: -180px; top: -40px; font-size: 25px; line-height: 25px; text-align: center;}
+                .fr10-text1-1{width: 254px; left: -142px; top: -25px; font-size: 15px; line-height: 25px; text-align: left;}
+                .fr10-text1-2{width: 254px; left: -180px; top: 30px; font-size: 15px; line-height: 25px; text-align: center;}
+            .fr10-name2{width: 355px; left: -148px; top: 45px; font-size: 25px; line-height: 25px; text-align: center;}
+                .fr10-text2-1{width: 254px; left: -200px; top: 40px; font-size: 15px; line-height: 25px; text-align: center;}
+                .fr10-text2-2{width: 254px; left: -213px; top: 40px; font-size: 15px; line-height: 25px; text-align: center;}
+                .fr10-text2-3{width: 254px; left: -217px; top: 40px; font-size: 15px; line-height: 25px; text-align: center;}
+            .fr10-name3{width: 355px; left: -138px; top: 45px; font-size: 25px; line-height: 25px; text-align: center;}
+                .fr10-text3{width: 254px; left: -180px; top: 40px; font-size: 15px; line-height: 25px; text-align: center;}
+            .fr10-seti{width: 100px; height: 25px; left: -140px; top: 40px;}
+        .fr10-map{position: relative; width: 170px; height: 170px; left: -255px; top: -25px;}
+
+    .frame11{width: 390px; height: 225px; left: 0px; top: 2350px; background: linear-gradient(#D44952,rgba(212, 73, 82, 0.25));}
+        .fr11-text1{width: 219px; left: 75px; top: 30px; font-size: 28px; line-height: 40px; text-align: center;}
+        .fr11-text2{width: 341px; left: 25px; top: 35px; font-size: 16px; line-height: 26px;}
+        .fr11-But{left: 125px; top: 140px;}
+
+    .frame12{width: 390px; height: 500px; left: 0px; top: 2310px;}
+        .logo1{left: -30px; top: -10px;}
+        .fr12-cont1-text{width: 355px; left: -140px; top: -10px; font-size: 15px; line-height: 25px; text-align: center;}
+        .fr12-cont2-name{width: 355px; left: -430px; top: 110px; font-size: 25px; line-height: 25px; text-align: center;}
+            .fr12-cont2-text1{width: 355px; left: -428px; top: 140px; font-size: 15px; line-height: 25px; text-align: center;}
+            .fr12-cont2-text2{width: 355px; left: -428px; top: 170px; font-size: 15px; line-height: 25px; text-align: center;}
+            .fr12-cont2-text3{width: 355px; left: -428px; top: 200px; font-size: 15px; line-height: 25px; text-align: center;}
+        .fr12-cont3-name{width: 355px; left: -715px; top: 250px; font-size: 25px; line-height: 25px; text-align: center;}
+            .fr12-cont3-text1{width: 355px; left: -600px; top: 280px; font-size: 15px; line-height: 25px; text-align: left;}
+            .fr12-cont3-text2{width: 355px; left: -603px; top: 308px; font-size: 15px; line-height: 25px; text-align: left;}
+            .fr12-cont3-text3{width: 355px; left: -570px; top: 336px; font-size: 15px; line-height: 25px; text-align: left;}
+        .fr12-cont4-name{width: 355px; left: -1000px; top:380px; font-size: 25px; line-height: 25px; text-align: center;}
+            .fr12-seti{width: 100px; height: 25px; left: -875px; top: 395px;}
+    .frame13{width: 390px; height: 50px; top: 2310px;}
+                .copyright{position: relative; width: 355px; left: -581px; top: 4px; font-size: 15px; line-height: 25px; text-align: center;}
+}
